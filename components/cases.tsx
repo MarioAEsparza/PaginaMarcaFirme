@@ -1,21 +1,21 @@
 export function Cases() {
   const cases = [
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/case-1-Ms6hK02nwXIW0vaqVDdk84tmkxrkC6.png",
+      image: "https://imgv2-2-f.scribdassets.com/img/document/520829068/298x396/e053d412f8/1718114935?v=1",
       alt: "Caso de registro de marca 1",
     },
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/case-2-th0FDM2dpIMIPWvnU9qOzmnWVVxbkv.png",
+      image: "https://imgv2-2-f.scribdassets.com/img/document/735494814/298x396/4da36eb183/1716495092?v=1",
       alt: "Caso de registro de marca 2",
     },
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/case-3-cCKlRDed1BwPsLVt2FHeLQuzyxvdzO.png",
+      image: "https://imgv2-1-f.scribdassets.com/img/document/695368860/298x396/2fbcbede75/1710591243?v=1",
       alt: "Caso de registro de marca 3",
     },
   ]
 
   return (
-    <section className="py-20 lg:py-28 bg-white">
+    <section className="py-20 lg:py-25 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Header */}
         <div className="text-center mb-14">
@@ -28,7 +28,7 @@ export function Cases() {
         </div>
 
         {/* Cases Grid */}
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
           {cases.map((caseItem, index) => (
             <div 
               key={index}
