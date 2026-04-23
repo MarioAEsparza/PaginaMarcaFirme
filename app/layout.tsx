@@ -35,10 +35,10 @@ export const metadata: Metadata = {
     type: 'website',
   },
   twitter: {
-  card: 'summary_large_image', // Esto es lo que fuerza el tamaño grande
-  title: 'MarcaFirme USA | Registro de Marca en Estados Unidos',
-  description: 'Protege tu marca hoy mismo con expertos.',
-  images: ['https://pagina-marca-firme.vercel.app/og-image.png'], // Usa la URL absoluta
+    card: 'summary_large_image',
+    title: 'MarcaFirme USA | Registro de Marca en Estados Unidos',
+    description: 'Protege tu marca hoy mismo.',
+    images: ['/og-image.png'],
   },
 }
 
