@@ -11,7 +11,7 @@ export function Navbar() {
   const navLinks = [
     { href: "#servicios", label: "Servicios" },
     { href: "#proceso", label: "Proceso" },
-    { href: "#preguntas", label: "Preguntas" },
+    { href: "#FAQ", label: "FAQ" },
     { href: "#contacto", label: "Contacto" },
   ]
 

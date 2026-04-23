@@ -24,13 +24,13 @@ export function FAQ() {
   ]
 
   return (
-    <section id="preguntas" className="py-20 lg:py-28 bg-white">
+    <section id="FAQ" className="py-20 lg:py-28 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-3xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">
             <h2 className="font-(family-name:--font-poppins) text-3xl md:text-4xl lg:text-5xl font-bold text-brand-dark mb-4">
-              Preguntas Frecuentes
+              Preguntas Frecuentes (FAQ)
             </h2>
             <p className="text-lg text-brand-dark/70">
               Registro de Marca
