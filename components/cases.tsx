@@ -13,7 +13,7 @@ export function Cases() {
       alt: "Caso de registro de marca 3",
     },
   ]
-
+  
   return (
     <section className="py-20 lg:py-25 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
@@ -32,12 +32,12 @@ export function Cases() {
           {cases.map((caseItem, index) => (
             <div 
               key={index}
-              className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+              className="rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300"
             >
               <img
                 src={caseItem.image}
                 alt={caseItem.alt}
-                className="w-full h-auto"
+                className="w-full h-auto transition-transform duration-300 ease-in-out hover:scale-105"
               />
             </div>
           ))}
