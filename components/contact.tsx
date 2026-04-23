@@ -4,7 +4,7 @@ import Link from "next/link"
 const CONTACT_INFO = [
   { icon: MessageCircle, label: "WhatsApp", value: "+1 (555) 012-7842", href: "https://wa.me/15550127842", cta: "Escríbenos" },
   { icon: Mail, label: "Correo", value: "hola@marcafirmeusa.com", href: "mailto:hola@marcafirmeusa.com", cta: "Enviar correo" },
-  { icon: Clock, label: "Horario", value: "Lun a Vie: 9:00 AM – 6:00 PM (ET)", href: "mailto:hola@marcafirmeusa.com", cta: ""},
+  { icon: Clock, label: "Horario", value: "Lun a Vie: 9:00 AM – 6:00 PM (ET)", href: "", cta: ""},
   { icon: MapPin, label: "Dirección", value: "1200 Brickell Ave, Suite 900, Miami, FL 33131", href: "https://maps.google.com/?q=1200+Brickell+Ave+Suite+900+Miami+FL+33131", cta: "Ver mapa" },
 ]
 
