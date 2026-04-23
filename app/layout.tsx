@@ -16,11 +16,37 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'MarcaFirme USA | Registro de Marca en Estados Unidos',
-  description: 'Asesoría legal clara para registrar tu marca en USA. Evaluación inicial sin costo y soporte por WhatsApp.',
-  generator: 'v0.app',
-  icons: {
-    icon: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/favicon-3v12VyklmEIjEIzdyu275KM0u6qYTZ.png',
+  title: {
+    default: 'MarcaFirme USA | Registro de Marca en Estados Unidos',
+    template: '%s | MarcaFirme USA'
+  },
+  description: 'Protege tu identidad comercial con expertos. Registro de marcas en USA, evaluación legal inicial sin costo y soporte personalizado por WhatsApp.',
+  keywords: ['registro de marca usa', 'registrar marca estados unidos', 'propiedad intelectual', 'USPTO español', 'asesoría legal marcas'],
+  authors: [{ name: 'MarcaFirme USA' }],
+  creator: 'MarcaFirme USA',
+  openGraph: {
+    type: 'website',
+    locale: 'es_US',
+    url: 'https://marcafirmeusa.com',
+    title: 'MarcaFirme USA | Registro de Marca en Estados Unidos',
+    description: 'Asesoría legal clara y efectiva para proteger tu marca en el mercado estadounidense.',
+    siteName: 'MarcaFirme USA',
+    images: [{
+      url: '/og-image.png',
+      width: 1200,
+      height: 630,
+      alt: 'Registro de Marca en USA con MarcaFirme',
+    }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'MarcaFirme USA | Registro de Marca en Estados Unidos',
+    description: 'Evaluación inicial sin costo para tu registro de marca en USA.',
+    images: ['/og-image.png'],
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 }
 
